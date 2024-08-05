@@ -1,15 +1,15 @@
-//Decoder states.
+//Decoder states
 const decoderStateIdle          = 0;
 const decoderStateInitializing  = 1;
 const decoderStateReady         = 2;
 const decoderStateFinished      = 3;
 
-//Player states.
+//Player states
 const playerStateIdle           = 0;
 const playerStatePlaying        = 1;
 const playerStatePausing        = 2;
 
-//Constant.
+//Constant
 const maxBufferTimeLength       = 1.0;
 const downloadSpeedByteRateCoef = 2.0;
 
